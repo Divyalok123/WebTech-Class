@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Assignment 2</title>
+</head>
+<body> 
+    <div id="content">
+        <div id="calcplanet">
+            <div id="agecalci">
+                <div class="form age_form">
+                    <div class="form_input">
+                        <form method="POST" id="ageform">
+                            <label for="dob">Enter your birth date: </label> <br> 
+                            <input type="date" id="dob"> 
+                        </form>
+                    </div>
+                    <div class="form_output">
+                        Your age is: <span id="ageval">NA</span>
+                    </div>
+                </div>
+            </div>
+            <div id="planets">
+                <div class="form">
+                    <div class="form_input">
+                        <form method="POST" id="planetform">
+                            <input type="radio" value="Sun" name="planet"> Sun <br>
+                            <input type="radio" value="Mercury" name="planet"> Mercury <br>
+                            <input type="radio" value="Venus" name="planet"> Venus <br>
+                            <input type="radio" value="Earth" name="planet"> Earth <br>
+                            <input type="radio" value="Mars" name="planet"> Mars <br>
+                            <input type="radio" value="Jupiter" name="planet"> Jupiter <br>
+                            <input type="radio" value="Saturn" name="planet"> Saturn <br>
+                            <input type="radio" value="Uranus" name="planet"> Uranus <br>
+                            <input type="radio" value="Neptune" name="planet"> Neptune <br>
+                            <input type="radio" value="Pluto" name="planet"> Pluto <br>
+                        </form>
+                    </div>
+                    <div class="form_output" id="planetinfo">
+                        Click on a planet to get info.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>Divyalok Jaiswal (2K18/PS/015)</footer>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>

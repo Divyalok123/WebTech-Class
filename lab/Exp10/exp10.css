@@ -1,0 +1,206 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Gemunu+Libre&family=Nunito&family=PT+Sans&family=Stick+No+Bills&display=swap');
+
+/* Basic setup */
+
+* {
+    padding: 0;
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* Utility classes */
+
+.white {
+    color: white;
+}
+
+.f-dosis {
+    font-family: 'Dosis', sans-serif;
+}
+
+.f-gemunu {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.f-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.f-ptsans {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.f-sticknobills {
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+/* Main */
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#main>div {
+    height: 100%;
+    width: 100%;
+}
+
+/* Intro */
+
+#intro {
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('./assets/Background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+}
+
+#header {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    text-align: center;
+}
+
+.logo-img {
+    height: 220px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 45px;
+}
+
+.address {
+    font-size: 20px;
+}
+
+.header-text {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Courses */
+
+#courses {
+    background-color: rgb(87, 101, 152, 0.3);
+    display: flex;
+}
+
+#content {
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 1px white;
+    padding: 50px;
+    width: 50%;
+    height: 70%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgba(87, 101, 152, 0.9);
+}
+
+#content > div {
+    margin-bottom: 20px; 
+}
+
+.heading { 
+    color: rgb(187, 220, 235);
+    text-transform: uppercase;
+}
+
+.course {
+    margin-bottom: 20px;
+}
+
+.details {
+    font-size: 18px;
+}
+
+.details > p {
+    margin: 10px 0 10px 0;
+}
+
+.list {
+    margin-left: 20px;
+}
+
+/* College */
+
+#college {
+    background: url('./assets/dtu.png');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#scrolling-text {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 23px;
+    -moz-animation: scroller 15s linear infinite;
+    -webkit-animation: scroller 15s linear infinite;
+    animation: scroller 15s linear infinite;
+}
+
+@-moz-keyframes scroller {
+    from {
+        -moz-transform: translateX(0%);
+    } 
+
+    to {
+        -moz-transform: translateX(100%);
+    }
+}
+
+@-webkit-keyframes scroller {
+    from {
+        -webkit-transform: translateX(0%);
+    }
+
+    to {
+        -webkit-transform: translateX(100%);
+    }
+}
+
+@keyframes scroller {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(100%); 
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    color: white;
+    background-color: rgba(87, 101, 152, 0.3);
+    width: 100%; 
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 8px 0;
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 11</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body, html {
+            width: 100%;
+            height: 100%;
+            max-height: 100%;
+            box-sizing: border-box;
+        }
+
+        #content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+
+        .first {
+            grid-area: first;
+            background-color: orange;
+        }
+
+        .second {
+            grid-area: second;
+            background-color: rgb(253 217 205);
+        }
+
+        .third {
+            grid-area: third;
+            background-color: rgb(253 217 205);
+        }
+
+        .fourth {
+            grid-area: fourth;
+            background-color: rgb(254 238 231);
+        }
+
+        .fifth {
+            grid-area: fifth;
+            background-color: rgb(254 238 231);
+        }
+
+        .sixth {
+            grid-area: sixth;
+            background-color: rgb(254 238 231);
+        }
+
+        .box {
+            margin: auto;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px 100px 100px;
+            grid-template-rows: 50px 50px 50px 50px 50px;
+            grid-template-areas: 
+            'first first first first first first'
+            'second second second third third third'
+            'second second second third third third'
+            'fourth fourth fifth fifth sixth sixth'
+            'fourth fourth fifth fifth sixth sixth'; 
+        }
+
+        .box > div {
+            padding: 20px;
+            margin: 1px;
+            font-weight: bolder;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .grid-element {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div class="box">
+            <div class="first grid-element">First Frame: Name and address</div>
+            <div class="second grid-element">Second frame <br><br> Bulleted list of qualifications</div>
+            <div class="third grid-element">Third frame <br><br> Links for favourite sites</div>
+            <div class="fourth grid-element">Fourth frame <br><br> Scrolling message</div>
+            <div class="fifth grid-element">Fifth frame <br><br> Blinking reminders</div>
+            <div class="sixth grid-element">Sixth frame <br><br> Image</div>
+        </div>
+    </div>
+</body>
+</html>

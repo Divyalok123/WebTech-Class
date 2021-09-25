@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 9</title>
+    <style>
+
+        /* Basic setup */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            max-height: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Ids */
+        #content {
+            height: 100%;
+            width: 100%;
+            display: flex;
+        }
+
+        #color-box {
+            width: 500px;
+            height:300px;
+        }
+
+        /* Utility classes */
+        .center {
+            margin: auto;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .rowflex {
+            flex-direction: row;
+        }
+
+        .columnflex {
+            flex-direction: column;
+        }
+
+        .block {
+            display: block;
+        }
+
+        .orange {
+            background-color: orange;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .box {
+            width: 50%;
+        }
+
+        .box1 {
+            height: 50%;
+            width: 100%;
+        }
+
+        .box2 {
+            height: 100%;
+            width: 50%;
+        }
+
+        .text {
+            color: white;
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            text-transform:uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <div id="color-box" class="flex rowflex center">
+            <div id="box1" class="box flex columnflex">
+                <div class="box1 orange flex">
+                    <span class="center block text">Orange</span>
+                </div>
+                <div class="box1 blue flex">
+                    <span class="center block text">Blue</span>
+                </div>
+            </div>
+            <div id="box2" class="box flex rowflex">
+                <div class="box2 red flex">
+                    <span class="center block text">Red</span>
+                </div>
+                <div class="box2 green flex">
+                    <span class="center block text">Green</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
