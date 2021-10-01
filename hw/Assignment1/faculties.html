@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/main.css" type="text/css">
+    <link rel="stylesheet" href="./public/css/nav.css" type="text/css">
+    <link rel="stylesheet" href="./public/css/faculties.css" type="text/css">
+    <link rel="stylesheet" href="./public/css/footer.css" type="text/css">
+    <title>Faculties | Research_DTU</title>
+</head>
+
+<body>
+    <div id="content">
+        <div id="replace_nav"></div>
+        <div class="modal" id="pub_modal">
+            <div class="close_modal" id="close_pub_modal"></div>
+            <div class="modal_content pub_modal_content">
+                <header class="f_roboto">
+                    List of publications under Faculty Name
+                </header>
+                <ol class="f_ubuntu">
+                    <li>
+                        R. SriDatta , M. Pandey, R. K. Annabattula,"Theoretical analysis on the dynamic compressive
+                        behavior of cellular solids with non-linear variation in cross-sectional area",International
+                        Journal of Impact Engineering,2021
+                    </li>
+                    <li>
+                        Arunachalam M., Pandey, M.,Rajagopal A. "Testing Weibull as a viable statistical strength
+                        distribution for Nacre.", Mechanics of Materials, 2021.
+                    </li>
+                    <li>
+                        Govind, M. & Pandey, M., "Synchronization of surface acoustic wave (SAW)-based delaycoupled
+                        self-oscillating MEMS", Int J Adv Eng Sci Appl Math.2021.
+                    </li>
+                    <li>
+                        S., Venkat & Rajagopal, A. & Pandey, M., "Plasticity Based Interface Model for Failure Modelling
+                        of Unreinforced Masonry Under Cyclic Loading", Vietnam Journal of Mechanics. 42. 1-18. 2020.
+                    </li>
+                    <li>
+                        S. R. Datta, M Pandey, R K Annabattula ,"Dynamic compressive behaviour of auxetic and
+                        non-auxetic hexagonal honeycombs with entrapped gas", International Journal of Impact
+                        Engineering,9 September 2020, 103718.
+                    </li>
+                    <li>
+                        S. R. Datta, M Pandey, R K Annabattula ,"Effect of defects on the dynamic compressive behavior
+                        of cellular solids", International Journal of Mechanical Sciences,Volume 170, 15 March 2020,
+                        105365.
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="modal" id="apply_modal">
+            <div class="close_modal" id="close_apply_modal"></div>
+            <div class="modal_content apply_modal_content">
+                <header class="f_roboto">
+                    Send Application
+                </header>
+                <form method="POST" class="application_form">
+                    <textarea name="application_content" class="application_content f_yaldevi"></textarea>
+                    <div class="applicatoin_form_buttons">
+                        <button type="submit" class="form_button pointer f_roboto">Submit with resume</button>
+                        <button type="submit" class="form_button pointer f_roboto">Submit without resume</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="home_content">
+            <div class="header f_titillium">
+                <span>List of Faculties</span>
+            </div>
+            <div class="faculties">
+                <div class="prof_card">
+                    <div class="card_img">
+                        <img src="./public/assets/person.jpg" alt="teacher_image">
+                    </div>
+                    <div class="card_content">
+                        <div class="name f_titillium">
+                            <span>Faculty Name</span>                            
+                        </div>
+                        <div class="branch f_titillium">
+                            <span>Faculty Branch</span>
+                        </div>
+                        <div class="card_buttons">
+                            <button class="publications f_roboto card_button">Publications</button>
+                            <button class="apply f_roboto card_button">Send Application</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="prof_card">
+                    <div class="card_img">
+                        <img src="./public/assets/person.jpg" alt="teacher_image">
+                    </div>
+                    <div class="card_content">
+                        <div class="name f_titillium">
+                            <span>Faculty Name</span>                            
+                        </div>
+                        <div class="branch f_titillium">
+                            <span>Faculty Branch</span>
+                        </div>
+                        <div class="card_buttons">
+                            <button class="publications f_roboto card_button">Publications</button>
+                            <button class="apply f_roboto card_button">Send Application</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="prof_card">
+                    <div class="card_img">
+                        <img src="./public/assets/person.jpg" alt="teacher_image">
+                    </div>
+                    <div class="card_content">
+                        <div class="name f_titillium">
+                            <span>Faculty Name</span>                            
+                        </div>
+                        <div class="branch f_titillium">
+                            <span>Faculty Branch</span>
+                        </div>
+                        <div class="card_buttons">
+                            <button class="publications f_roboto card_button">Publications</button>
+                            <button class="apply f_roboto card_button">Send Application</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="prof_card">
+                    <div class="card_img">
+                        <img src="./public/assets/person.jpg" alt="teacher_image">
+                    </div>
+                    <div class="card_content">
+                        <div class="name f_titillium">
+                            <span>Faculty Name</span>                            
+                        </div>
+                        <div class="branch f_titillium">
+                            <span>Faculty Branch</span>
+                        </div>
+                        <div class="card_buttons">
+                            <button class="publications f_roboto card_button">Publications</button>
+                            <button class="apply f_roboto card_button">Send Application</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="extra_div"></div>
+        </div>
+        <div id="replace_footer"></div>
+    </div>
+    <script src="./public/js/replace.js"></script>
+    <script src="./public/js/modelToggler.js"></script>
+</body>
+
+</html>

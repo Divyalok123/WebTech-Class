@@ -1,0 +1,169 @@
+.modal {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    margin: auto;
+    background-color: rgba(230, 230, 250, 0.8);
+    z-index: 2;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.close_modal {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.modal_content {
+    z-index: 3;
+    width: 45%;
+    padding: 20px;
+    height: 60%;
+    max-height: 60%;
+    overflow-y: scroll;
+    background-color: rgba(85, 85, 85, 0.863);
+    border-radius: 20px;
+}
+
+.modal_content > header {
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.pub_modal_content {
+    color: whitesmoke
+}
+
+.pub_modal_content li {
+    margin: 15px 20px;
+}   
+
+.application_form {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+} 
+
+.application_content {
+    resize: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 14px;
+    height: 250px;
+}
+
+.application_form_buttons {
+    margin-right: 20px;
+}
+
+.form_button {
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 20px 5px;
+    float: right;
+}
+
+.form_button:nth-child(1) {
+    background-color: rgb(56, 40, 56);
+    color:white;
+}
+
+.form_button:nth-child(2) {
+    background-color: rgb(226, 214, 226);
+}
+
+
+#home_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_content {
+    width: 100%;
+}
+
+.card_content > div {
+    width: 100%; 
+    text-align: center;
+}
+
+.faculties {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.prof_card {
+    width: 280px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px 0.2px gray;
+    background-color: lavender;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.card_img {
+    overflow:hidden;
+}
+
+.card_img > img {
+    border-radius: 50%;
+}
+
+.card_content > * {
+    display: block;
+    margin: 10px 0;
+}
+
+.card_button {
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+.publications {
+    background-color: rgb(71, 71, 62);
+}
+
+.apply {
+    background-color: teal;
+}
+
+#extra_div {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: teal;
+}

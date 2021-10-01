@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&family=Bonheur+Royale&family=Gemunu+Libre&family=Open+Sans&family=Roboto&family=Titillium+Web&family=Ubuntu&family=Yaldevi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(225, 238, 245);
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+
+.f_bon_royale {
+    font-family: 'Bonheur Royale', sans-serif;
+}
+
+.f_gemunu {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.f_open_sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.f_roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.f_titillium {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.f_ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.f_yaldevi {
+    font-family: 'Yaldevi', sans-serif;
+}
+
+.f_sticknobills {
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.f_exo {
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Useful Classes */
+
+.pointer {
+    cursor: pointer;
+}
