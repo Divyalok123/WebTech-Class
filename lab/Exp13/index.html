@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Experiment 13</title>
+</head>
+<body>  
+    <div id="content">
+        <form method="POST" id="form">
+            <div id="name_div">
+                <span>Enter Name of your friend</span>
+                <input type="text" id="name" name="name">
+            </div>
+            <div id="file_div">
+                <span>Choose the file you want to post to your friend.</span>
+                <br><br>
+                <input type="text" id="file_name" name="file_name">
+                <input type="file" id="file" name="file">
+                <label for="file" id="file_label">Browse...</label>
+            </div>
+            <div id="file_content">
+                <span>What does the file contain?</span>
+                <br><br>
+                <input type="checkbox" name="image" id="image"> &nbsp; Image 
+                <input type="checkbox" name="source_code" id="source_code"> &nbsp; Source code 
+                <input type="checkbox" name="binary_code" id="binary_code"> &nbsp; Binary code 
+            </div>
+            <div id="submit_div">
+                <span>You have Completed the Form.</span>
+                <button id="submit_button" type="submit">Submit Query</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

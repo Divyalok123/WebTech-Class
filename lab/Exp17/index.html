@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 17</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body, html {
+            height: 100%;
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        *::selection {
+            background-color: teal;
+            color: rgb(176, 218, 211);
+        }
+
+        #content {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(196, 176, 176, 0.3);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .text {
+            margin: auto;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding: 8px 15px;
+            box-shadow: 0 2px 6px 0 grey;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div id="bold_text" class="text">
+            Click this text to make it bold. 
+        </div>
+        <div id="italic_text" class="text">
+            Click this text to make it italic.
+        </div>
+        <div id="underline_text" class="text">
+            Click this text to underline it.
+        </div>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
